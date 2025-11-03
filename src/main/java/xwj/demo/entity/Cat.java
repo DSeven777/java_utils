@@ -34,7 +34,7 @@ public class Cat implements Serializable {
     @Override
     public String toString() {
         return "Cat{" +
-                "name='" + name + '\'' +
+                "name='" + name + '\ '' +
                 ", age=" + age +
                 '}';
     }
